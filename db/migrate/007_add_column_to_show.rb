@@ -1,4 +1,4 @@
-class AddColumnToShow < ActiveREcord::Migration[5.2]
+class AddColumnToShow < ActiveRecord::Migration[5.2]
 
   def change
     add_column :shows, :genre, :string
